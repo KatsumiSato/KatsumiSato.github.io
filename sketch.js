@@ -192,55 +192,55 @@ function setup() {
   var Sed_bothButton = createButton("BOTH");
   
   //3つのボタンの背景のダミーボタン。設定はRedrawボタンと同じ
-  backDam.style("font-size", "13px");
+  backDam.style("font-size", "25px");
   let backDamCol=color(LB_R,LB_G,LB_B);
   backDam.style('background-color', backDamCol);
-  backDam.style('border-radius',"8px");
+  backDam.style('border-radius',"16px");
   backDam.style('border',"0px");
   backDam.size(windowWidth - btnUnit*6, btnUnit*3);
   backDam.position(btnUnit*6/2, height - btnUnit*9);
   
   //Checkボタン
-  answerButton.style("font-size", "13px");
+  answerButton.style("font-size", "25px");
   let answerCol=color(Orange_R,Orange_G,Orange_B);
   answerButton.style('background-color', answerCol);
   // let answerFontCol=color(White);
   let answerFontCol=color(DB_R,DB_G,DB_G);
   answerButton.style('color', answerFontCol);
   // answerButton.style('font-family', "Roboto");
-  answerButton.style('border-radius',"8px");
+  answerButton.style('border-radius',"16px");
   answerButton.style('border',"0px");
   answerButton.size(windowWidth - btnUnit*6, btnUnit*3);
   answerButton.position(btnUnit*6/2, height - btnUnit*5);//x座標は.sizeのx幅にてwindowWidthから引いていた数。ここではbtnUnit*6/2
   
   //Redrawボタン
-  redrawButton.style("font-size", "13px");
+  redrawButton.style("font-size", "25px");
   let redrawCol=color(LB_R,LB_G,LB_B);
   redrawButton.style('background-color', redrawCol);
   let redrawFontCol=color(White);
   redrawButton.style('color', redrawFontCol);
   // redrawButton.style('font-family', "Roboto");
-  redrawButton.style('border-radius',"8px");
+  redrawButton.style('border-radius',"16px");
   redrawButton.style('border',"0px");
   redrawButton.size(windowWidth - btnUnit*6, btnUnit*3);
   redrawButton.position(btnUnit*6/2, height - btnUnit*9);
   
   //Nextボタン
-  refreshButton.style("font-size", "13px");
+  refreshButton.style("font-size", "25px");
   let refreshCol=color(Orange_R,Orange_G,Orange_B);
   refreshButton.style('background-color', refreshCol);
   // let refreshFontCol=color(White);
   let refreshFontCol=color(DB_R,DB_G,DB_G);
   refreshButton.style('color', refreshFontCol);
   // refreshButton.style('font-family', "Roboto");
-  refreshButton.style('border-radius',"8px");
+  refreshButton.style('border-radius',"16px");
   refreshButton.style('border',"0px");
   refreshButton.size(windowWidth - btnUnit*6, btnUnit*3);
   refreshButton.position(btnUnit*6/2, height - btnUnit*5);
   refreshButton.hide();
   
   //Solutionボタン
-  solutionButton.style("font-size", "13px");
+  solutionButton.style("font-size", "25px");
   let solutionCol;
   let solutionFontCol;
   solutionCol=color(LB_R,LB_G,LB_B);
@@ -248,40 +248,40 @@ function setup() {
   solutionButton.style('background-color', solutionCol);
   solutionButton.style('color', solutionFontCol);
   // solutionButton.style('font-family', "Times");
-  solutionButton.style('border-radius',"8px");
+  solutionButton.style('border-radius',"16px");
   solutionButton.style('border',"0px");
   solutionButton.size(windowWidth/3 - btnUnit*2, btnUnit*3);
   solutionButton.position(btnUnit*6/2, height - btnUnit*9);
   solutionButton.hide();
   
   //YourSketchボタン
-  yourSketchButton.style("font-size", "13px");
+  yourSketchButton.style("font-size", "25px");
   let yourSketchCol=color(LB_R,LB_G,LB_B);
   yourSketchButton.style('background-color', yourSketchCol);
   let yourSketchFontCol=color(White);
   yourSketchButton.style('color', yourSketchFontCol);
   // yourSketchButton.style('font-family', "Times");
-  yourSketchButton.style('border-radius',"8px");
+  yourSketchButton.style('border-radius',"16px");
   yourSketchButton.style('border',"0px");
   yourSketchButton.size(windowWidth/3 - btnUnit*2, btnUnit*3);
   yourSketchButton.position(btnUnit*6/2+(windowWidth/3-btnUnit*2)*2, height - btnUnit*9);
   yourSketchButton.hide();
   
   //Bothボタン
-  bothButton.style("font-size", "13px");
+  bothButton.style("font-size", "25px");
   let bothCol=color(LB_R,LB_G,LB_B);
   bothButton.style('background-color', bothCol);
   let bothFontCol=color(White);
   bothButton.style('color', bothFontCol);
   // bothButton.style('font-family', "Times");
-  bothButton.style('border-radius',"8px");
+  bothButton.style('border-radius',"16px");
   bothButton.style('border',"0px");
   bothButton.size(windowWidth/3 - btnUnit*2, btnUnit*3);
   bothButton.position(btnUnit*6/2+windowWidth/3-btnUnit*2, height - btnUnit*9);
   bothButton.hide();
   
   //選ばれている状態（ユーザーの滞在状況表示）を示すボタン。実際はボタンの機能を持たない。
-  Sed_solutionButton.style("font-size", "13px");
+  Sed_solutionButton.style("font-size", "25px");
   let Sed_solutionCol;
   let Sed_solutionFontCol;
   Sed_solutionCol=color(White);
@@ -289,31 +289,31 @@ function setup() {
   Sed_solutionButton.style('background-color', Sed_solutionCol);
   Sed_solutionButton.style('color', Sed_solutionFontCol);
   // Sed_solutionButton.style('font-family', "Times");
-  Sed_solutionButton.style('border-radius',"8px");
+  Sed_solutionButton.style('border-radius',"16px");
   Sed_solutionButton.style('border',"0px");
   Sed_solutionButton.size(windowWidth/3 - btnUnit*2, btnUnit*3);
   Sed_solutionButton.position(btnUnit*6/2, height - btnUnit*9);
   Sed_solutionButton.hide();
   
-  Sed_yourSketchButton.style("font-size", "13px");
+  Sed_yourSketchButton.style("font-size", "25px");
   let Sed_yourSketchCol=color(White);
   Sed_yourSketchButton.style('background-color', Sed_yourSketchCol);
   let Sed_yourSketchFontCol=color(DB_R,DB_G,DB_G);
   Sed_yourSketchButton.style('color', Sed_yourSketchFontCol);
   // Sed_yourSketchButton.style('font-family', "Times");
-  Sed_yourSketchButton.style('border-radius',"8px");
+  Sed_yourSketchButton.style('border-radius',"16px");
   Sed_yourSketchButton.style('border',"0px");
   Sed_yourSketchButton.size(windowWidth/3 - btnUnit*2, btnUnit*3);
   Sed_yourSketchButton.position(btnUnit*6/2+(windowWidth/3-btnUnit*2)*2, height - btnUnit*9);
   Sed_yourSketchButton.hide();
   
-  Sed_bothButton.style("font-size", "13px");
+  Sed_bothButton.style("font-size", "25px");
   let Sed_bothCol=color(White);
   Sed_bothButton.style('background-color', Sed_bothCol);
   let Sed_bothFontCol=color(DB_R,DB_G,DB_G);
   Sed_bothButton.style('color', Sed_bothFontCol);
   // Sed_bothButton.style('font-family', "Times");
-  Sed_bothButton.style('border-radius',"8px");
+  Sed_bothButton.style('border-radius',"16px");
   Sed_bothButton.style('border',"0px");
   Sed_bothButton.size(windowWidth/3 - btnUnit*2, btnUnit*3);
   Sed_bothButton.position(btnUnit*6/2+windowWidth/3-btnUnit*2, height - btnUnit*9);
