@@ -5,7 +5,7 @@ var LBS_R=77,LBS_G=90,LBS_B=106;//さらに明るいライトブルー・少し�
 var Orange_R=242, Orange_G=144,Orange_B=25;//オレンジ・強調（最も明るい）
 var White=247;//白・少し強調（最も明るい）
 var btnUnit //ボタンのサイズを決めるためのユニット。画面サイズに対応して変化。
-var mStrokeW=4;//メインのstrokeWeight
+var mStrokeW=6;//メインのstrokeWeight
 var dispScore=0;//0から加算されていくところが見える表示用スコア
 
 function preload() {
