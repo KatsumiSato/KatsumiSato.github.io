@@ -192,7 +192,7 @@ function setup() {
   var Sed_bothButton = createButton("BOTH");
   
   //3つのボタンの背景のダミーボタン。設定はRedrawボタンと同じ
-  backDam.style("font-size", "25px");
+  backDam.style("font-size", "30px");
   let backDamCol=color(LB_R,LB_G,LB_B);
   backDam.style('background-color', backDamCol);
   backDam.style('border-radius',"16px");
@@ -201,7 +201,7 @@ function setup() {
   backDam.position(btnUnit*6/2, height - btnUnit*9);
   
   //Checkボタン
-  answerButton.style("font-size", "25px");
+  answerButton.style("font-size", "30px");
   let answerCol=color(Orange_R,Orange_G,Orange_B);
   answerButton.style('background-color', answerCol);
   // let answerFontCol=color(White);
@@ -214,7 +214,7 @@ function setup() {
   answerButton.position(btnUnit*6/2, height - btnUnit*5);//x座標は.sizeのx幅にてwindowWidthから引いていた数。ここではbtnUnit*6/2
   
   //Redrawボタン
-  redrawButton.style("font-size", "25px");
+  redrawButton.style("font-size", "30px");
   let redrawCol=color(LB_R,LB_G,LB_B);
   redrawButton.style('background-color', redrawCol);
   let redrawFontCol=color(White);
@@ -226,7 +226,7 @@ function setup() {
   redrawButton.position(btnUnit*6/2, height - btnUnit*9);
   
   //Nextボタン
-  refreshButton.style("font-size", "25px");
+  refreshButton.style("font-size", "30px");
   let refreshCol=color(Orange_R,Orange_G,Orange_B);
   refreshButton.style('background-color', refreshCol);
   // let refreshFontCol=color(White);
@@ -240,7 +240,7 @@ function setup() {
   refreshButton.hide();
   
   //Solutionボタン
-  solutionButton.style("font-size", "25px");
+  solutionButton.style("font-size", "30px");
   let solutionCol;
   let solutionFontCol;
   solutionCol=color(LB_R,LB_G,LB_B);
@@ -255,7 +255,7 @@ function setup() {
   solutionButton.hide();
   
   //YourSketchボタン
-  yourSketchButton.style("font-size", "25px");
+  yourSketchButton.style("font-size", "30px");
   let yourSketchCol=color(LB_R,LB_G,LB_B);
   yourSketchButton.style('background-color', yourSketchCol);
   let yourSketchFontCol=color(White);
@@ -268,7 +268,7 @@ function setup() {
   yourSketchButton.hide();
   
   //Bothボタン
-  bothButton.style("font-size", "25px");
+  bothButton.style("font-size", "30px");
   let bothCol=color(LB_R,LB_G,LB_B);
   bothButton.style('background-color', bothCol);
   let bothFontCol=color(White);
@@ -281,7 +281,7 @@ function setup() {
   bothButton.hide();
   
   //選ばれている状態（ユーザーの滞在状況表示）を示すボタン。実際はボタンの機能を持たない。
-  Sed_solutionButton.style("font-size", "25px");
+  Sed_solutionButton.style("font-size", "30px");
   let Sed_solutionCol;
   let Sed_solutionFontCol;
   Sed_solutionCol=color(White);
@@ -295,7 +295,7 @@ function setup() {
   Sed_solutionButton.position(btnUnit*6/2, height - btnUnit*9);
   Sed_solutionButton.hide();
   
-  Sed_yourSketchButton.style("font-size", "25px");
+  Sed_yourSketchButton.style("font-size", "30px");
   let Sed_yourSketchCol=color(White);
   Sed_yourSketchButton.style('background-color', Sed_yourSketchCol);
   let Sed_yourSketchFontCol=color(DB_R,DB_G,DB_G);
@@ -307,7 +307,7 @@ function setup() {
   Sed_yourSketchButton.position(btnUnit*6/2+(windowWidth/3-btnUnit*2)*2, height - btnUnit*9);
   Sed_yourSketchButton.hide();
   
-  Sed_bothButton.style("font-size", "25px");
+  Sed_bothButton.style("font-size", "30px");
   let Sed_bothCol=color(White);
   Sed_bothButton.style('background-color', Sed_bothCol);
   let Sed_bothFontCol=color(DB_R,DB_G,DB_G);
